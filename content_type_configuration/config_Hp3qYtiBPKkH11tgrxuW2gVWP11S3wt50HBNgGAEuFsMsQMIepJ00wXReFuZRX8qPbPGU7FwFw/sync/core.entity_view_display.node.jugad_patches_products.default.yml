@@ -1,0 +1,48 @@
+uuid: 0fdf06f8-cf68-4163-a06d-b4e405f392e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.jugad_patches_products.body
+    - field.field.node.jugad_patches_products.field_app_purchase_link
+    - field.field.node.jugad_patches_products.field_product_image
+    - node.type.jugad_patches_products
+  module:
+    - file
+    - text
+    - user
+id: node.jugad_patches_products.default
+targetEntityType: node
+bundle: jugad_patches_products
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_app_purchase_link:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_product_image:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

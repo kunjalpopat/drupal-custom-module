@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_description
+    - node.type.jugad_patches_products
+  module:
+    - text
+id: node.jugad_patches.field_product_description
+field_name: product_description
+entity_type: node
+bundle: jugad_patches_products
+label: 'Products Description'
+description: 'More specific information about the Products.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

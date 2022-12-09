@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.field.node.jugad_patches_products.product_description
+        - node.type.jugad_patches_products
+    module:
+        - text
+        - user
+id: node.jugad_patches_products.default
+targetEntityType: node
+bundle: jugad_patches_products
+mode: default
+content:
+    body:
+        label: hidden
+        type: text_default
+        weight: 101
+        settings: {  }
+        third_party_settings: {  }
+    links:
+        weight: 100
+hidden: {  }

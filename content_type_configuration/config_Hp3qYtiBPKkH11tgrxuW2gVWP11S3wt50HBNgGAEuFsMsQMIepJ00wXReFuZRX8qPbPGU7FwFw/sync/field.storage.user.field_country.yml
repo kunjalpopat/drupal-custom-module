@@ -1,0 +1,45 @@
+uuid: bde6702a-d608-4162-95ba-da9a9ff67c79
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_country
+field_name: field_country
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '"AC"'
+      label: America/Chicago
+    -
+      value: '"AN"'
+      label: America/New_York
+    -
+      value: '"AT"'
+      label: Asia/Tokyo
+    -
+      value: '"AD"'
+      label: Asia/Dubai
+    -
+      value: '"AK"'
+      label: Asia/Kolkata
+    -
+      value: '"EA"'
+      label: Europe/Amsterdam
+    -
+      value: '"EO"'
+      label: Europe/Oslo
+    -
+      value: '"EL"'
+      label: Europe/London
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

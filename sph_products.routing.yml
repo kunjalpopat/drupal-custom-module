@@ -1,0 +1,15 @@
+sph_products.welcome:
+  path: '/welcome/page'
+  defaults:
+    _controller: '\Drupal\sph_products\Controller\WelcomeController::welcome'
+    _title: 'Welcome to My Module in Drupal 9'
+  requirements: 
+    _permission: 'access content'
+
+sph_products.dashboard:
+  path: '/dashboard/page'
+  defaults:
+    _controller: '\Drupal\sph_products\Controller\DashboardController::dashboard'
+    _title: 'Welcome to Jugaad Patches Pvt Ltd'
+  requirements: 
+    _permission: 'access content'

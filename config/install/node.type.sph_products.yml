@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - sph_products
+name: 'Jugad Patches Products'
+type: jugad_patches_products
+description: 'Content type that can be used to creating products for Jugad Patchs Pvt. Ltd.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

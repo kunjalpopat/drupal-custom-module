@@ -1,0 +1,18 @@
+uuid: cb4916fb-1c8e-47e9-9e1e-28849c6a949f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.jugad_patches_products
+id: node.jugad_patches_products.title
+field_name: title
+entity_type: node
+bundle: jugad_patches_products
+label: 'Product Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

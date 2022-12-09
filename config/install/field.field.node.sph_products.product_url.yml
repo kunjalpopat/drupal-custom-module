@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_url
+    - node.type.jugad_patches_products
+  module:
+    - link
+id: node.jugad_patches_products.field_product_url
+field_name: field_product_url
+entity_type: node
+bundle: jugad_patches_products
+label: 'App Purchase Link '
+description: 'Product URL'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

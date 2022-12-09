@@ -1,0 +1,20 @@
+uuid: 1a3935b5-0484-4bff-a22c-c747b486c085
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_citty
+  module:
+    - user
+id: user.user.field_citty
+field_name: field_citty
+entity_type: user
+bundle: user
+label: City
+description: 'You can enter city name of user'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - core.entity_view_mode.node.teaser
+        - field.field.node.jugad_patches_products.field_product_description
+        - field.field.node.jugad_patches_products.field_product_image
+        - field.field.node.jugad_patches_products.field_product_url
+        - node.type.jugad_patches_products
+    module:
+        - text
+        - user
+id: node.jugad_patches_products.teaser
+targetEntityType: node
+bundle: jugad_patches_products
+mode: teaser
+content:
+    body:
+        label: hidden
+        type: text_summary_or_trimmed
+        weight: 101
+        settings:
+            trim_length: 600
+        third_party_settings: {  }
+    links:
+        weight: 100
+hidden: {  }
