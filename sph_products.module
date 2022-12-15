@@ -1,0 +1,17 @@
+<?php
+ 
+/**
+ * Implements hook_theme().
+ */
+function sph_products_theme($existing, $type, $theme, $path) {
+ 
+  return [
+    'sph_products_listing' => [
+      'render element' => 'children',
+      'template' => 'sph-products-listing', #name of the template file +.html.twig
+      'variables' => [
+        'products' => []
+      ]
+    ]
+  ];
+}

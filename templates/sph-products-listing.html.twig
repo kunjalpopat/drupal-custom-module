@@ -1,0 +1,18 @@
+{# [module]/templates/sph-products-listing.html.twig #}
+<p>Product Listing</p>
+
+<div class="table-horizontal-container">
+<table class="unfixed-table">
+  <thead>
+    <tr><th>Name of Product</th><th>Product Description</th></tr>
+    <tr><th>Pruchase link of Product</th></tr>
+  </thead>
+  <tbody>
+    {% for prod in products %}
+    <tr><th>{{ prod.product_name }}</th><td>{{ prod.product_description }}</td></tr>
+    <tr><th>{{ prod.app_purchase_link }}</th>
+   {% endfor %}
+  </tbody>
+  
+  
+</table>

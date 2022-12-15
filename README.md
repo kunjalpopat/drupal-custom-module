@@ -1,3 +1,12 @@
+NEW CHANGES
+-----------
+- created module file and write login of custom theme hook
+- created twig template and call products from object
+- changes on controller function code as per .module file
+- please look on files and code, as per requirement shared i have tried my best to implement.
+
+
+
 INTRODUCTION
 ------------
 This modules created for SPH Products shop, you can purchase using QR code scanner link
